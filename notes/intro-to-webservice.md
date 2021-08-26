@@ -13,6 +13,15 @@ The idea is that a wide range of compatible machines can remotely access some fu
 In order to achieve interoperability we need to define a communication protocol. We need a way of structuring and encoding information so machines can parse messages sent. Two popular web service protocols are SOAP (Simple Object Access Protocol) and JSON (JavaScript Object Notation). SOAP is more sophisticated and rigidly defined, and the result is more robust. We will be focusing more on JSON, which is less formally defined and lightweight. 
 
 ## Advantages of Web Services
+ - Expand functionality of the way we use the web
+ - Expose functionality for accessability and reuse
+ - Standardization & interoperability
+ - Loose coupling
+
+<BR><BR>See Also:
+ - [Advantages of Web Services -IBM](https://www.ibm.com/docs/en/ztpf/1.1.0.15?topic=services-advantages-web)
+ - [Benefits of Web Services -Oracle](https://docs.oracle.com/cd/B14099_19/web.1012/b14027/intro.htm#i1018810)
+ - [History of the Web](https://home.cern/science/computing/birth-web/short-history-web)
 
 
 
