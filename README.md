@@ -1,7 +1,7 @@
 # Javalin-SQL-Week
 
 ## Monday
- - [Intro to Webservice](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-webservice)
+ - [Intro to Webservices](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-webservice.md)
  - Intro to HTTP
  - Hackerrank Activity
 
