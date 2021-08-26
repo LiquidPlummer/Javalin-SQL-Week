@@ -7,9 +7,10 @@
  - [Hackerrank Activity](https://www.hackerrank.com/week-2-code-contest)
 
 ## Tuesday
- - Intro to Javalin
  - JSON Overview
- - Exception/Error mapping
+ - Intro to Javalin
+   - HTTP Handlers
+   - Exception/Error mapping
  - Postman
    - Newman (Optional)
 
