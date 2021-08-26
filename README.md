@@ -1,12 +1,12 @@
 # Javalin-SQL-Week
 
 ## Monday
- - [Intro to Webservices](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-webservices.md)
  - [Intro to HTTP](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-http.md)
- - Hackerrank Activity
+ - [Intro to Webservices](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-webservices.md)
+ - [REST Naming conventions](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-webservices.md)
+ - [Hackerrank Activity](https://www.hackerrank.com/week-2-code-contest)
 
 ## Tuesday
- - REST Naming conventions
  - Intro to Javalin
  - JSON Overview
  - Exception/Error mapping
