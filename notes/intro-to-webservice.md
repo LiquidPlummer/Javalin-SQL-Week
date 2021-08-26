@@ -9,5 +9,10 @@ A web service has an interface, which hides the implementation details so that i
   
 The idea is that a wide range of compatible machines can remotely access some functionality and/or resources by defining language and hardware agnostic protocols. 
 
-## SOAP
-In order for web services to work, you need to be able to send and recieve data to a remote machine. Both sides must be able to parse and understand this data. A popular protocol for web services is SOAP. 
+## Communication
+In order to achieve interoperability we need to define a communication protocol. We need a way of structuring and encoding information so machines can parse messages sent. Two popular web service protocols are SOAP (Simple Object Access Protocol) and JSON (JavaScript Object Notation). SOAP is more sophisticated and rigidly defined, and the result is more robust. We will be focusing more on JSON, which is less formally defined and lightweight. 
+
+## Advantages of Web Services
+
+
+
