@@ -31,6 +31,8 @@ Each HTTP request includes a verb, which describes the type of request and how i
  - Has request body - the request can contain content in the request body
  - Has response body - a successful response should contain content in the response body
   
+  
+  
 #### GET
 Used to retrieve data.
  - Idempotent
@@ -39,6 +41,7 @@ Used to retrieve data.
  - Form allowed
  - No request body
  - Has response body
+  
   
   
 #### HEAD
@@ -50,7 +53,7 @@ Basically identical to GET, except the response should not include a body. Info 
  - No request body
  - No response body
   
- 
+  
   
 #### POST
 Sends data to he server. Commonly used for creation of and updating resources. Response body generally contains the updated resource representation.
@@ -60,6 +63,7 @@ Sends data to he server. Commonly used for creation of and updating resources. R
  - Form allowed
  - Has request body
  - Has response body
+  
   
   
 #### PUT
@@ -72,6 +76,7 @@ Sends data to server. Commonly used to replace current resource representation w
  - No response body
   
   
+  
 #### PATCH
 Sends data to the server. Similar to PUT but may not contain complete resource representation. May only include information needed to update some part of the current resource state.
  - Idempotent
@@ -80,6 +85,7 @@ Sends data to the server. Similar to PUT but may not contain complete resource r
  - Not form allowed
  - Has request body
  - Has response body
+  
   
   
 #### DELETE
@@ -92,6 +98,7 @@ Used to delete a resource.
  - May have response body
   
   
+  
 #### CONNECT
 Initiates a "tunnel" - bi-directional communication with the resource.
  - Not idempotent
@@ -102,6 +109,7 @@ Initiates a "tunnel" - bi-directional communication with the resource.
  - Has response body
   
   
+  
 #### OPTIONS
 Get options for communication with a specific resource.
  - Idempotent
@@ -110,6 +118,7 @@ Get options for communication with a specific resource.
  - Not form allowed
  - No request body
  - Has response body
+  
   
   
 #### TRACE
