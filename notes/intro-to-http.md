@@ -1,7 +1,8 @@
-# HTTP - HyperText Transfer Protocol
+# Intro to HTTP
 
-HTTP is the protocol we use to browse the web. HTTP is a client-server protocol where the client must initiate communication. Every HTTP communication is made up of a client request, and a server response. HTTP is stateless, which means the server should be able to handle each request separately and only with the information provided in the request. The server should not have to maintain any state in order for any individual request to be processed.  
+HTTP, or HyperText Transfer Protocol, is the protocol we use to browse the web. HTTP is a client-server protocol where the client must initiate communication. Every HTTP communication is made up of a client request, and a server response. HTTP is stateless, which means the server should be able to handle each request separately and only with the information provided in the request. The server should not have to maintain any state in order for any individual request to be processed.  
   
+## HTTP Messages
 ### HTTP Request
 ![http request](https://raw.githubusercontent.com/LiquidPlummer/Javalin-SQL-Week/main/images/http-request-image.png)  
   
@@ -22,7 +23,7 @@ Each HTTP response is composed of:
  - Response Body - message content (resource representation in REST)
   
   
-### HTTP Verbs
+## HTTP Verbs
 Each HTTP request includes a verb, which describes the type of request and how it should be processed. Requests have certain characteristics. Each may or may not be:
  - Idempotent - if the same operation is repeated, the same output is produced
  - Safe - read-only, will not alter the server/resource state
@@ -33,7 +34,7 @@ Each HTTP request includes a verb, which describes the type of request and how i
   
   
   
-#### GET
+### GET
 Used to retrieve data.
  - Idempotent
  - Safe
@@ -44,7 +45,7 @@ Used to retrieve data.
   
   
   
-#### HEAD
+### HEAD
 Basically identical to GET, except the response should not include a body. Info from server will be in response header. Can also be used to test an endpoint before requesting a large payload.
  - Idempotent
  - Safe
@@ -55,7 +56,7 @@ Basically identical to GET, except the response should not include a body. Info 
   
   
   
-#### POST
+### POST
 Sends data to he server. Commonly used for creation of and updating resources. Response body generally contains the updated resource representation.
  - Not idempotent
  - Not safe
@@ -66,7 +67,7 @@ Sends data to he server. Commonly used for creation of and updating resources. R
   
   
   
-#### PUT
+### PUT
 Sends data to server. Commonly used to replace current resource representation with the content contained in this request.
  - Idempotent
  - Not safe
@@ -77,7 +78,7 @@ Sends data to server. Commonly used to replace current resource representation w
   
   
   
-#### PATCH
+### PATCH
 Sends data to the server. Similar to PUT but may not contain complete resource representation. May only include information needed to update some part of the current resource state.
  - Idempotent
  - Not safe
@@ -88,7 +89,7 @@ Sends data to the server. Similar to PUT but may not contain complete resource r
   
   
   
-#### DELETE
+### DELETE
 Used to delete a resource. 
  - Idempotent
  - Not safe
@@ -99,7 +100,7 @@ Used to delete a resource.
   
   
   
-#### CONNECT
+### CONNECT
 Initiates a "tunnel" - bi-directional communication with the resource.
  - Not idempotent
  - Not safe
@@ -110,7 +111,7 @@ Initiates a "tunnel" - bi-directional communication with the resource.
   
   
   
-#### OPTIONS
+### OPTIONS
 Get options for communication with a specific resource.
  - Idempotent
  - Safe
@@ -121,7 +122,7 @@ Get options for communication with a specific resource.
   
   
   
-#### TRACE
+### TRACE
 Loop-back test between client and resource. Useful tool for debugging.
  - Idempotent
  - Safe
@@ -131,3 +132,29 @@ Loop-back test between client and resource. Useful tool for debugging.
  - Has response body
   
   
+## HTTP Status Codes
+As part of every response, the server gives a status code that describes the status of the request.  
+  
+### 100 - Informational
+ - 100 - Continue
+ - 102 - Processing
+
+### 200 - Success
+ - 200 - OK
+ - 202 - Accepted
+ - 203 - Created  
+  
+### 300 - Redirect
+ - 301 - Moved Permenantly
+ - 303 - See Other
+ - 304 - Not Modified  
+  
+### 400 - Client Error
+ - 401 - Unauthorized
+ - 403 - Forbidden
+ - 404 - Not Found  
+  
+### 500 - Server Error
+ - 500 - Internal Server Error
+ - 502 - Bad Gateway
+ - 503 - Service Unavailable
