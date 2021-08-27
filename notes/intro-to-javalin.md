@@ -28,8 +28,10 @@ Error handling works the same way, but with http status codes rather than except
   
 Error handlers can also be provided with an optional parameter, a content type. This is the second parameter, and is a string that allows us to have different error-handlers handle different content types.
 
-<BR><BR>## Sample Projects
+<BR><BR>
+## Sample Projects
  - [Javalin Sample Project](https://github.com/LiquidPlummer/simple-samples/tree/main/simple-javalin)
-<BR><BR>## See also:
+<BR><BR>
+## See also:
  - [Javalin Documentation](https://javalin.io/documentation#getting-started)
  - [Web Applications with Javalin](https://leanpub.com/javalin/read)
