@@ -23,7 +23,7 @@ Use backslash as an escape character in JSON. There are several escapable sequen
  - \t - tab
 
 
-## Example:
+## Example ([From the Open Movie Database API](https://www.omdbapi.com/)):
 ```
 {
 	"Title": "The Grand Budapest Hotel",
@@ -62,6 +62,10 @@ Use backslash as an escape character in JSON. There are several escapable sequen
 	"Response": "True"
 }
 ```
+Note:
+ - The value associated with the Ratings key is an array of JSON objects.
+ - The value associated with the Response key is "True". This is a string, not a boolean. It could have been represented as a bool, if it were lowercase and lacked double quotes.
+ - This example is problematic due to the key naming, note that it doesn't follow any particular style. This can cause confusion when unmarshalling. 
 
 <BR><BR>
 ## See Also:
