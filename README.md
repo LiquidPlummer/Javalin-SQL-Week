@@ -1,4 +1,5 @@
 # Javalin-SQL-Week
+[Javalin Sample Project](https://github.com/LiquidPlummer/simple-samples/tree/main/simple-javalin)
 
 ## Monday
  - [Intro to HTTP](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-http.md)
