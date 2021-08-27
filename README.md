@@ -7,7 +7,7 @@
  - [Hackerrank Activity](https://www.hackerrank.com/week-2-code-contest)
 
 ## Tuesday
- - JSON Overview
+ - [JSON Overview](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-json.md)
  - [Intro to Javalin](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-javalin.md)
    - [HTTP Handlers](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-javalin.md)
    - [Exception/Error mapping](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-javalin.md)
