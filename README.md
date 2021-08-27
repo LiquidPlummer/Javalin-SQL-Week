@@ -8,9 +8,9 @@
 
 ## Tuesday
  - JSON Overview
- - Intro to Javalin
-   - HTTP Handlers
-   - Exception/Error mapping
+ - [Intro to Javalin](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-javalin.md)
+   - [HTTP Handlers](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-javalin.md)
+   - [Exception/Error mapping](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-javalin.md)
  - Postman
    - Newman (Optional)
 
