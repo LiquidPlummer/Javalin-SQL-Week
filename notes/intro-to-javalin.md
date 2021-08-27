@@ -22,7 +22,11 @@ So, the workflow is:
 There is a handler method for each http verb, and the method should be supplied with a path and a function. The handlers functions are commonly written as lambda expressions which take in a context object and manipulate that object. These can also be written as class methods which take in a context object and have a void return type. We use the context object to set up responses, rather than returning anything.  
   
 ### Exception/Error Handlers
-There are also handlers for exceptions and errors. 
+There are also handlers for exceptions and errors. Before-, after-, and endpoint-handlers can all throw exceptions. We can handle these exceptions with exception mapping. Use the Javalin instance `exception` method, which should be provided with an exception class it handles, and a function to handle it. Like the other handlers the function can be a lambda exression or a class method. The funciton should take in two parameters, the exception and the context objects.  
+  
+Error handling works the same way, but with http status codes rather than exceptions. An error handler takes in the error code and a function as parameters. The function should take in a context object as a parameter as well. An handler can throw an exception, which can be handled by an exception-handler that sets an appropriate status code, and an error-handler is invoked to handle that status code.  
+  
+Error handlers can also be provided with an optional parameter, a content type. This is the second parameter, and is a string that allows us to have different error-handlers handle different content types.
 
 
 <BR><BR>See also:
