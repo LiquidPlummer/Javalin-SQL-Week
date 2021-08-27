@@ -19,8 +19,10 @@ So, the workflow is:
 5. http response dispatched
   
   
-There is a handler method for each http verb, and the method should be supplied with a path and a function. The handlers functions are commonly written as lambda expressions which take in a context object and manipulate that object. These can also be written as class methods which take in a context object and have a void return type. We use the context object to set up responses, rather than returning anything.
-
+There is a handler method for each http verb, and the method should be supplied with a path and a function. The handlers functions are commonly written as lambda expressions which take in a context object and manipulate that object. These can also be written as class methods which take in a context object and have a void return type. We use the context object to set up responses, rather than returning anything.  
+  
+### Exception/Error Handlers
+There are also handlers for exceptions and errors. 
 
 
 <BR><BR>See also:
