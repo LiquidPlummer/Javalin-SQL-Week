@@ -15,7 +15,7 @@
    - Newman (Optional)
 
 ## Wednesday
- - Intro to DBMS
+ - [Intro to DBMS](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-dbms.md)
  - AWS RDS
  - AWS - MariaDB (Oracle)
    - DDL
