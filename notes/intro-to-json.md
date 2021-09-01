@@ -13,9 +13,9 @@ JSON objects are represented as a string of characters enclosed in curly braces,
 
 ## JSON Escapes
 Use backslash as an escape character in JSON. There are several escapable sequences:
- - \" - in order to represent a literal double quote in a string
- - \\ - in order to represent a literal backslash
- - \/ - in order to represent a literal foreward slash
+ - \\" - in order to represent a literal double quote in a string
+ - \\\ - in order to represent a literal backslash
+ - \\/ - in order to represent a literal foreward slash
  - \b - backspace
  - \f - form feed
  - \n - new line
