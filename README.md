@@ -18,6 +18,7 @@
  - [Intro to DBMS](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-dbms.md)
  - AWS RDS
  - AWS - MariaDB (Oracle)
+ - [SQL](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/SQL.md)
    - DDL
    - DML
    - DQL
