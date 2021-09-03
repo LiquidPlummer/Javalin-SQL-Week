@@ -1,5 +1,8 @@
 # Javalin-SQL-Week
 
+## SQL Assignment
+[SQL Assignment](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/assignments/sql-assignment.sql)
+
 ## Monday
  - [Intro to HTTP](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-http.md)
  - [Intro to Webservices](https://github.com/LiquidPlummer/Javalin-SQL-Week/blob/main/notes/intro-to-webservices.md)
