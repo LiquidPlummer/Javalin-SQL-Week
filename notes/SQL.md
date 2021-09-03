@@ -1,4 +1,7 @@
-# SQL Sublanguages
+# SQL
+SQL, or Structured Query Language, is a scripting language used to manipulate relational databases, commonly referred to as SQL databases. In the strictest sense SQL instructs a relational database management system in a similar way to how Java instructs the compiler and JS instructs the interpreter.
+
+## SQL Sublanguages
 The types of SQL commands used to query and manipulate data within a database can be categorized into 5 sub-languages (or dialects).
 
 1. **DDL Data Definition Language:** Statements used to create tables and databases as well as defined properties.
@@ -12,6 +15,15 @@ The types of SQL commands used to query and manipulate data within a database ca
 5. **TCL (Transaction Control Language):** Statements used to commit and restore data through transaction.  Transactions group a set of tasks into a single execution unit.
     * `COMMIT`, `ROLLBACK`, `SAVEPOINT`
 
+
+
+
+
+
+
+
+
+
 <img src="./images/sublanguages-1.jpg" width="600"/>
 
 ## Creating Tables with DDL
@@ -21,7 +33,7 @@ Let's begin creating a **Users** table in our **public** schema by using **DDL**
 
 1. Open a new SQL script editor by cicking on the icon in the top left-hand corner that says `New SQL Editor`.
 
-<img src="./images/new-script.png" width="600"/>
+
 
 2. In the editor type the following SQL statements. `--` denotes a comment:
 * The *lowercase words* are the names of the columns.
